@@ -15,3 +15,9 @@ Landing Page Digital Agency Concept
       JavaScript
     </li>
   </ul>
+  
+  
+# Description
+  <p>
+    The design of the page is inspiration from several pages. The page that I developed is completely responsive, adapted for mobile devices, tablets, and desktop.
+  </p>
