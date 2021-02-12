@@ -1,0 +1,56 @@
+.menu-btn {
+  border: none;
+  z-index: 400;
+  border-radius: 62px;
+  padding: 20px 12px;
+  cursor: pointer;
+  border: 1px solid #E9E8E8;
+  transition: all 0.5s ease-out;
+  background-color: transparent;
+}
+
+.menu-btn div {
+  position: relative;
+  top: 49%;
+  width: 20px;
+  height: 3px;
+  background-color: $color-peach-sure;
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease-out;
+  z-index: 300;
+  cursor: pointer;
+}
+
+/* Hamburger top & bottom line */
+.menu-btn > div:before,
+.menu-btn > div:after {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 0;
+  background: inherit;
+  height: 3px;
+  width: 100%;
+  z-index: 1;
+  cursor: pointer;
+}
+.menu-btn > div:after {
+  top: -8px;
+  cursor: pointer;
+}
+
+/* Toggler Animation */
+.menu-btn.open > div {
+  transform: rotate(135deg);
+  background-color: $color-white;
+}
+.menu-btn.open > div:before,
+.menu-btn.open > div:after {
+  top: 0;
+  transform: rotate(90deg);
+  cursor: pointer;
+}
+

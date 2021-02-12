@@ -1,0 +1,269 @@
+@import "./variables";
+
+#services {
+  h2 {
+    width: 90%;
+    margin: auto;
+    font-weight: 900;
+    text-align: center;
+    color: $color-dark;
+    font-family: $font-playfair;
+
+    span {
+      font-weight: 600;
+      @media (max-width: 599px) {
+        font-size: 2.5rem;
+      }
+      @media (min-width: 600px) {
+        font-size: 4rem;
+      }
+    }
+
+    @media (max-width: 599px) {
+      font-size: 3rem;
+    }
+    @media (min-width: 600px) {
+      font-size: 5rem;
+    }
+    @media (min-width: 1200px) {
+      font-size: 8rem;
+      text-align: start;
+    }
+    @media (min-width: 1800px) {
+      width: 69%;
+      font-size: 8rem;
+      text-align: start;
+    }
+  }
+
+  .cards-services-container {
+    width: 90%;
+    margin: auto;
+    margin-top: 5rem;
+
+    .cards-service {
+      height: 18rem;
+      display: grid;
+      column-gap: 2rem;
+      align-items: center;
+      justify-content: center;
+      grid-template-columns: 30% 60%;
+      box-shadow: 0px 16px 40px #9aaacf50;
+      background-color: $color-white;
+      .img-svg {
+        width: 100%;
+        height: 5rem;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+
+        @media (max-width: 599px) {
+          height: 10rem;
+        }
+        @media (min-width: 600px) {
+          height: 12rem;
+        }
+        @media (min-width: 900px) {
+          height: 18rem;
+        }
+      }
+
+      .card-service-content {
+        display: flex;
+        flex-direction: column;
+
+        .numbers {
+          width: 90%;
+          margin: auto;
+          font-family: $font-poppins;
+          font-size: 1.5rem;
+          font-weight: 600;
+          text-align: start;
+          margin-bottom: 2rem;
+          @media (min-width: 600px) {
+            width: 70%;
+            margin: auto;
+            font-size: 2rem;
+            margin-bottom: 2rem;
+          }
+          @media (min-width: 900px) {
+            font-size: 2.3rem;
+          }
+          @media (min-width: 1200px) {
+            width: 90%;
+            margin: auto;
+            font-size: 2rem;
+            margin-bottom: 2.5rem;
+          }
+        }
+
+        .text-service {
+          display: flex;
+          flex-direction: row;
+          align-items: flex-start;
+          justify-content: center;
+
+          h3 {
+            color: $color-dark;
+
+            @media (max-width: 599px) {
+              width: 90%;
+              font-size: 2.3rem;
+            }
+            @media (min-width: 600px) {
+              width: 70%;
+              font-size: 3rem;
+            }
+            @media (min-width: 900px) {
+              width: 70%;
+              font-size: 5rem;
+            }
+            @media (min-width: 1200px) {
+              width: 85%;
+              font-size: 3rem;
+            }
+          }
+
+          .play-services {
+            @media (min-width: 900px) {
+              font-size: 2rem;
+            }
+          }
+        }
+      }
+
+      @media (min-width: 600px) {
+        height: 22rem;
+      }
+      @media (min-width: 900px) {
+        height: 30rem;
+      }
+      @media (min-width: 1200px) {
+        height: 25rem;
+      }
+    }
+
+    @media (max-width: 599px) {
+      display: grid;
+      row-gap: 5rem;
+      grid-template-columns: 100%;
+    }
+    @media (min-width: 600px) {
+      display: grid;
+      row-gap: 5rem;
+      grid-template-columns: 100%;
+    }
+    @media (min-width: 1200px) {
+      display: grid;
+      row-gap: 5rem;
+      column-gap: 8rem;
+      row-gap: 8rem;
+      grid-template-columns: 45% 45%;
+      justify-content: center;
+      align-items: center;
+    }
+    @media (min-width: 1800px) {
+      display: grid;
+      row-gap: 5rem;
+      column-gap: 8rem;
+      row-gap: 8rem;
+      grid-template-columns: 35% 35%;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .our-projects {
+    width: 90%;
+    margin: auto;
+    margin-top: 10rem;
+    margin-bottom: 8rem;
+
+    h2 {
+      padding: 0;
+      margin: 0;
+      color: $color-dark;
+
+      span {
+        @media (max-width: 599px) {
+          font-size: 3rem;
+        }
+      }
+
+      @media (max-width: 599px) {
+        font-size: 5rem;
+        text-align: start;
+        margin-bottom: 2rem;
+      }
+      @media (min-width: 600px) {
+        font-size: 5rem;
+        text-align: start;
+        margin-bottom: 2rem;
+      }
+      @media (min-width: 900px) {
+        font-size: 8rem;
+        text-align: none;
+      }
+    }
+
+    @import "./buttonLink.scss";
+
+    .our {
+      width: 60%;
+      margin-top: 0;
+
+      @media(min-width: 900px) {
+        width: 90%;
+      }
+      @media(min-width: 1200px) {
+        width: 70%;
+      }
+    }
+
+    @media (max-width: 599px) {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+    }
+    @media (min-width: 600px) {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+    @media (min-width: 900px) {
+      display: grid;
+      grid-template-columns: 40% 50%;
+      align-items: center;
+      justify-content: center;
+    }
+    @media (min-width: 1800px) {
+      width: 80%;
+      display: grid;
+      grid-template-columns: 40% 40%;
+    }
+  }
+
+  @media (max-width: 599px) {
+    width: 100%;
+    padding-top: 5rem;
+    padding-bottom: 20rem;
+    background-color: $color-light-green;
+  }
+  @media (min-width: 600px) {
+    width: 100%;
+    padding-top: 5rem;
+    padding-bottom: 20rem;
+    background-color: $color-light-green;
+  }
+  @media (min-width: 1200px) {
+    width: 90%;
+    margin-left: auto;
+    padding-top: 10rem;
+    padding-bottom: 20rem;
+    background-color: $color-light-green;
+  }
+}

@@ -1,0 +1,377 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600&display=swap");
+#services h2 {
+  width: 90%;
+  margin: auto;
+  font-weight: 900;
+  text-align: center;
+  color: #242424;
+  font-family: "Playfair Display", serif;
+}
+#services h2 span {
+  font-weight: 600;
+}
+@media (max-width: 599px) {
+  #services h2 span {
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 600px) {
+  #services h2 span {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 599px) {
+  #services h2 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 600px) {
+  #services h2 {
+    font-size: 5rem;
+  }
+}
+@media (min-width: 1200px) {
+  #services h2 {
+    font-size: 8rem;
+    text-align: start;
+  }
+}
+@media (min-width: 1800px) {
+  #services h2 {
+    width: 69%;
+    font-size: 8rem;
+    text-align: start;
+  }
+}
+#services .cards-services-container {
+  width: 90%;
+  margin: auto;
+  margin-top: 5rem;
+}
+#services .cards-services-container .cards-service {
+  height: 18rem;
+  display: grid;
+  column-gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 30% 60%;
+  box-shadow: 0px 16px 40px #9aaacf50;
+  background-color: #ffffff;
+}
+#services .cards-services-container .cards-service .img-svg {
+  width: 100%;
+  height: 5rem;
+}
+#services .cards-services-container .cards-service .img-svg img {
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 599px) {
+  #services .cards-services-container .cards-service .img-svg {
+    height: 10rem;
+  }
+}
+@media (min-width: 600px) {
+  #services .cards-services-container .cards-service .img-svg {
+    height: 12rem;
+  }
+}
+@media (min-width: 900px) {
+  #services .cards-services-container .cards-service .img-svg {
+    height: 18rem;
+  }
+}
+#services .cards-services-container .cards-service .card-service-content {
+  display: flex;
+  flex-direction: column;
+}
+#services .cards-services-container .cards-service .card-service-content .numbers {
+  width: 90%;
+  margin: auto;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: start;
+  margin-bottom: 2rem;
+}
+@media (min-width: 600px) {
+  #services .cards-services-container .cards-service .card-service-content .numbers {
+    width: 70%;
+    margin: auto;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+@media (min-width: 900px) {
+  #services .cards-services-container .cards-service .card-service-content .numbers {
+    font-size: 2.3rem;
+  }
+}
+@media (min-width: 1200px) {
+  #services .cards-services-container .cards-service .card-service-content .numbers {
+    width: 90%;
+    margin: auto;
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+  }
+}
+#services .cards-services-container .cards-service .card-service-content .text-service {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+#services .cards-services-container .cards-service .card-service-content .text-service h3 {
+  color: #242424;
+}
+@media (max-width: 599px) {
+  #services .cards-services-container .cards-service .card-service-content .text-service h3 {
+    width: 90%;
+    font-size: 2.3rem;
+  }
+}
+@media (min-width: 600px) {
+  #services .cards-services-container .cards-service .card-service-content .text-service h3 {
+    width: 70%;
+    font-size: 3rem;
+  }
+}
+@media (min-width: 900px) {
+  #services .cards-services-container .cards-service .card-service-content .text-service h3 {
+    width: 70%;
+    font-size: 5rem;
+  }
+}
+@media (min-width: 1200px) {
+  #services .cards-services-container .cards-service .card-service-content .text-service h3 {
+    width: 85%;
+    font-size: 3rem;
+  }
+}
+@media (min-width: 900px) {
+  #services .cards-services-container .cards-service .card-service-content .text-service .play-services {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 600px) {
+  #services .cards-services-container .cards-service {
+    height: 22rem;
+  }
+}
+@media (min-width: 900px) {
+  #services .cards-services-container .cards-service {
+    height: 30rem;
+  }
+}
+@media (min-width: 1200px) {
+  #services .cards-services-container .cards-service {
+    height: 25rem;
+  }
+}
+@media (max-width: 599px) {
+  #services .cards-services-container {
+    display: grid;
+    row-gap: 5rem;
+    grid-template-columns: 100%;
+  }
+}
+@media (min-width: 600px) {
+  #services .cards-services-container {
+    display: grid;
+    row-gap: 5rem;
+    grid-template-columns: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  #services .cards-services-container {
+    display: grid;
+    row-gap: 5rem;
+    column-gap: 8rem;
+    row-gap: 8rem;
+    grid-template-columns: 45% 45%;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (min-width: 1800px) {
+  #services .cards-services-container {
+    display: grid;
+    row-gap: 5rem;
+    column-gap: 8rem;
+    row-gap: 8rem;
+    grid-template-columns: 35% 35%;
+    justify-content: center;
+    align-items: center;
+  }
+}
+#services .our-projects {
+  width: 90%;
+  margin: auto;
+  margin-top: 10rem;
+  margin-bottom: 8rem;
+}
+#services .our-projects h2 {
+  padding: 0;
+  margin: 0;
+  color: #242424;
+}
+@media (max-width: 599px) {
+  #services .our-projects h2 span {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 599px) {
+  #services .our-projects h2 {
+    font-size: 5rem;
+    text-align: start;
+    margin-bottom: 2rem;
+  }
+}
+@media (min-width: 600px) {
+  #services .our-projects h2 {
+    font-size: 5rem;
+    text-align: start;
+    margin-bottom: 2rem;
+  }
+}
+@media (min-width: 900px) {
+  #services .our-projects h2 {
+    font-size: 8rem;
+    text-align: none;
+  }
+}
+#services .our-projects .button-layout {
+  width: 100%;
+  height: 6rem;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+}
+#services .our-projects .button-layout .text-button {
+  margin: auto;
+}
+#services .our-projects .button-layout .play-width {
+  width: 20%;
+  height: 100%;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#services .our-projects .button-layout .peach {
+  background-color: #FF594B;
+}
+#services .our-projects .button-layout .green {
+  background-color: #6CB9A4;
+}
+@media (min-width: 600px) {
+  #services .our-projects .button-layout {
+    width: 60%;
+    height: 8rem;
+    margin-top: 2rem;
+  }
+}
+@media (min-width: 900px) {
+  #services .our-projects .button-layout {
+    width: 50%;
+    height: 11rem;
+    font-size: 3.5rem;
+    margin-top: 2rem;
+  }
+}
+@media (min-width: 1200px) {
+  #services .our-projects .button-layout {
+    width: 50%;
+    height: 8rem;
+    font-size: 2.2rem;
+    margin-top: 2rem;
+  }
+}
+@media (min-width: 1800px) {
+  #services .our-projects .button-layout {
+    width: 35%;
+    height: 7rem;
+  }
+}
+#services .our-projects .peach-sure {
+  background-color: #FF7468;
+}
+#services .our-projects .our {
+  width: 60%;
+  margin-top: 0;
+}
+@media (min-width: 900px) {
+  #services .our-projects .our {
+    width: 90%;
+  }
+}
+@media (min-width: 1200px) {
+  #services .our-projects .our {
+    width: 70%;
+  }
+}
+@media (max-width: 599px) {
+  #services .our-projects {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+}
+@media (min-width: 600px) {
+  #services .our-projects {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+}
+@media (min-width: 900px) {
+  #services .our-projects {
+    display: grid;
+    grid-template-columns: 40% 50%;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (min-width: 1800px) {
+  #services .our-projects {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 40% 40%;
+  }
+}
+@media (max-width: 599px) {
+  #services {
+    width: 100%;
+    padding-top: 5rem;
+    padding-bottom: 20rem;
+    background-color: #F4F9F8;
+  }
+}
+@media (min-width: 600px) {
+  #services {
+    width: 100%;
+    padding-top: 5rem;
+    padding-bottom: 20rem;
+    background-color: #F4F9F8;
+  }
+}
+@media (min-width: 1200px) {
+  #services {
+    width: 90%;
+    margin-left: auto;
+    padding-top: 10rem;
+    padding-bottom: 20rem;
+    background-color: #F4F9F8;
+  }
+}
+
+/*# sourceMappingURL=services.css.map */

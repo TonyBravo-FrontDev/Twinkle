@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600&display=swap");
+#projects {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 10rem;
+}
+#projects .card-project {
+  box-shadow: 0px 16px 40px #9aaacf60;
+  background-color: #ffffff;
+}
+#projects .card-project .card-img-project {
+  width: 80%;
+  height: 20rem;
+  margin: auto;
+  padding-top: 3rem;
+}
+#projects .card-project .card-img-project img {
+  width: 100%;
+  height: 100%;
+}
+@media (min-width: 600px) {
+  #projects .card-project .card-img-project {
+    height: 30rem;
+  }
+}
+#projects .card-project .card-text-project {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+#projects .card-project .card-text-project h3 {
+  color: #242424;
+  font-weight: 800;
+  font-family: "Playfair Display", serif;
+}
+@media (max-width: 599px) {
+  #projects .card-project .card-text-project h3 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 600px) {
+  #projects .card-project .card-text-project h3 {
+    font-size: 5rem;
+  }
+}
+#projects .card-project .card-text-project h6 {
+  margin: 0;
+  padding: 0;
+  color: #FF594B;
+  font-family: "Poppins", sans-serif;
+}
+@media (max-width: 599px) {
+  #projects .card-project .card-text-project h6 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+}
+@media (min-width: 600px) {
+  #projects .card-project .card-text-project h6 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-top: 2rem;
+  }
+}
+@media (min-width: 1200px) {
+  #projects .card-project .card-text-project h6 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 2rem;
+  }
+}
+#projects .card-project .card-text-project p {
+  color: #555859;
+  text-align: justify;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  font-family: "Poppins", sans-serif;
+}
+@media (max-width: 599px) {
+  #projects .card-project .card-text-project p {
+    font-size: 1.4rem;
+  }
+}
+@media (min-width: 600px) {
+  #projects .card-project .card-text-project p {
+    font-size: 1.8rem;
+    line-height: 1.7;
+  }
+}
+#projects .card-project .card-text-project .button-layout {
+  width: 100%;
+  height: 6rem;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+}
+#projects .card-project .card-text-project .button-layout .text-button {
+  margin: auto;
+}
+#projects .card-project .card-text-project .button-layout .play-width {
+  width: 20%;
+  height: 100%;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#projects .card-project .card-text-project .button-layout .peach {
+  background-color: #FF594B;
+}
+#projects .card-project .card-text-project .button-layout .green {
+  background-color: #6CB9A4;
+}
+@media (min-width: 600px) {
+  #projects .card-project .card-text-project .button-layout {
+    width: 60%;
+    height: 8rem;
+    margin-top: 2rem;
+  }
+}
+@media (min-width: 900px) {
+  #projects .card-project .card-text-project .button-layout {
+    width: 50%;
+    height: 11rem;
+    font-size: 3.5rem;
+    margin-top: 2rem;
+  }
+}
+@media (min-width: 1200px) {
+  #projects .card-project .card-text-project .button-layout {
+    width: 50%;
+    height: 8rem;
+    font-size: 2.2rem;
+    margin-top: 2rem;
+  }
+}
+@media (min-width: 1800px) {
+  #projects .card-project .card-text-project .button-layout {
+    width: 35%;
+    height: 7rem;
+  }
+}
+#projects .card-project .card-text-project .peach-sure {
+  background-color: #FF7468;
+}
+#projects .card-project .card-text-project .card {
+  width: 90%;
+}
+@media (min-width: 1200px) {
+  #projects .card-project .card-text-project .card {
+    width: 100%;
+  }
+}
+@media (max-width: 599px) {
+  #projects .card-project .card-text-project {
+    width: 80%;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+}
+@media (min-width: 600px) {
+  #projects .card-project .card-text-project {
+    width: 80%;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+}
+@media (max-width: 599px) {
+  #projects .card-project:nth-child(1) {
+    height: 40rem;
+  }
+}
+@media (min-width: 600px) {
+  #projects .card-project:nth-child(1) {
+    height: 50rem;
+  }
+}
+@media (min-width: 900px) {
+  #projects .card-project:nth-child(1) {
+    height: 60rem;
+  }
+}
+@media (max-width: 599px) {
+  #projects .card-project:nth-child(2) {
+    height: 55rem;
+  }
+}
+@media (min-width: 600px) {
+  #projects .card-project:nth-child(2) {
+    height: 75rem;
+  }
+}
+@media (max-width: 599px) {
+  #projects .card-project:nth-child(3) {
+    height: 40rem;
+  }
+}
+@media (min-width: 600px) {
+  #projects .card-project:nth-child(3) {
+    height: 50rem;
+  }
+}
+@media (min-width: 900px) {
+  #projects .card-project:nth-child(3) {
+    height: 60rem;
+  }
+}
+@media (max-width: 599px) {
+  #projects {
+    width: 80%;
+    display: grid;
+    row-gap: 5rem;
+    transform: translateY(-10rem);
+    grid-template-columns: 100%;
+  }
+}
+@media (min-width: 600px) {
+  #projects {
+    width: 70%;
+    display: grid;
+    row-gap: 8rem;
+    transform: translateY(-10rem);
+    grid-template-columns: 100%;
+  }
+}
+@media (min-width: 900px) {
+  #projects {
+    width: 60%;
+    display: grid;
+    row-gap: 8rem;
+    transform: translateY(-10rem);
+    grid-template-columns: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  #projects {
+    width: 90%;
+    display: grid;
+    column-gap: 5rem;
+    transform: translateY(-15rem);
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+  }
+}
+@media (min-width: 1800px) {
+  #projects {
+    width: 90%;
+    display: grid;
+    column-gap: 5rem;
+    transform: translateY(-15rem);
+    grid-template-columns: 25% 25% 25%;
+  }
+}
+
+/*# sourceMappingURL=cardsProjects.css.map */

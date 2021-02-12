@@ -1,0 +1,93 @@
+@import './variables';
+
+#testimonials {
+    width: 100%;
+    height: 60rem;
+    margin-bottom: 15rem;
+    background-color: #97D0C121;
+
+    .container-testimonial {
+        width: 90%;
+        margin: auto;
+        padding-top: 5rem;
+
+        .title-testimonial {
+            color: $color-dark;
+            font-weight: 800;
+            font-family: $font-playfair;
+
+            @media(max-width: 599px) {
+                font-size: 4rem;
+            }
+            @media(min-width: 600px) {
+                font-size: 4rem;
+                text-align: center;
+            }
+        }
+
+        .testimonials-names {
+            width: 90%;
+            margin: auto;
+            margin-top: 5rem;
+            display: grid;
+            column-gap: 2rem;
+            grid-template-columns: repeat(3, 1fr);
+            justify-content: center;
+            align-items: center;
+            border-bottom: 3px solid $color-peach-sure;
+
+            .col-mr {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                h4 {
+                    color: $color-dark;
+                    font-weight: 800;
+                    font-family: $font-playfair;
+                    cursor: pointer;
+                    @media(max-width: 599px) {
+                        font-size: 1.5rem;
+                    }
+                    @media(min-width: 600px) {
+                        font-size: 2rem;
+                    }
+                    @media(min-width: 900px) {
+                        font-size: 3rem;
+                    }
+                }
+
+                h6 {
+                    margin-top: 1rem;
+                    padding-top: 0;
+                    color: $color-dark-green;
+                    font-family: $font-poppins;
+
+                    @media(max-width: 599px) {
+                        font-size: 1.2rem;
+                    }
+                    @media(min-width: 600px) {
+                        font-size: 1.2rem;
+                    }
+                    @media(min-width: 900px) {
+                        font-size: 1.9rem;
+                    }
+                }
+            }
+        }
+
+        @media(min-width: 1800px) {
+            width: 60%;
+        }
+    }
+
+    @media(min-width: 900px) {
+        height: 70rem;
+        margin-bottom: 30rem;
+    }
+    @media(min-width: 1200px) {
+        height: 80rem;
+        margin-bottom: 30rem;
+    }
+}
